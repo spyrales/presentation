@@ -4,11 +4,10 @@ subtitle: "![](https://spyrales.netlify.com/images/favicon.png){#logo-first-page
 output: 
   revealjs::revealjs_presentation:
     center: true
-    self_contained: false
     theme: simple
     transition: zoom
     incremental: true
-    css: spyrales_pres.css
+    css: reveal-spyrales.css
 #knit: pagedown::chrome_print
 ---
 
