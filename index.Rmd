@@ -1,0 +1,35 @@
+---
+title: "s[py]{.pycolor}[r]{.rcolor}ales"
+subtitle: "![](https://spyrales.netlify.com/images/favicon.png){#logo-first-page}"
+output: 
+  revealjs::revealjs_presentation:
+    center: true
+    self_contained: false
+    theme: simple
+    transition: zoom
+    incremental: true
+    css: spyrales_pres.css
+---
+
+## s[py]{.pycolor}[r]{.rcolor}ales -- les origines
+
+- suite au confinement, de nombreux retours d'agents publics souhaitant se former à [R]{.rcolor} ou [python]{.pycolor}\
+    [ex : 25 agents du SSM Justice se sont signalés dès le 17 mars]{.smaller}
+
+- comment soutenir un grand nombre d'agents souhaitant s'auto-former ?
+  * [s]{.pycolor}'[entraider]{.rcolor} : communauté [Tchap](https://www.tchap.gouv.fr)\
+    [plus de 200 agents déjà\
+    des formateurs, des agents souhaitant se former]{.smaller}
+  * [orienter]{.pycolor}, [partager]{.rcolor} : un site web [spyrales.netlify.com](https://spyrales.netlify.com)
+
+
+## actions engagées {data-background-image="https://spyrales.netlify.com/images/logo.png" data-background-size="100%" data-background-position="50% 0"}
+
+- des offres de partenaires soutenant s[py]{.pycolor}[r]{.rcolor}ales
+  * [datascientest](https://datascientest.com/) : MOOC gratuits pour les membres
+  * [onyxia](https://spyrales.sspcloud.fr/) par l'Insee : plateforme de datascience
+  * Google Cloud Platform : formation et crédits gratuits
+
+- rendre ludique
+  * [la]{.pycolor} [piscine]{.rcolor} : pour apprendre à nager ensemble
+  * [fun]{.pycolor}[camp]{.rcolor} ?
