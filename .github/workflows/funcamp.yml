@@ -2,7 +2,7 @@ on:
   push:
     branches: master
 
-name: funcamp
+name: website
 
 jobs:
   build:
