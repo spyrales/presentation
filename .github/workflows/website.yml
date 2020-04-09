@@ -34,7 +34,7 @@ jobs:
         shell: Rscript {0}
         
       - name: Build pdf
-        run: ./_build_pdf.R
+        run: Rscript ./_build_pdf.R
       
       - uses: actions/upload-artifact@v1
         with:
