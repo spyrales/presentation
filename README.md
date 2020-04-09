@@ -1,3 +1,5 @@
+![website](https://github.com/spyrales/presentation/workflows/website/badge.svg)
+
 # Decks de présentation de spyrales
 
 ## Créer une nouvelle présentation HTML
