@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.reveal h1.title, .reveal h2 {
+  text-transform: lowercase;
+  color: #786060;
+  letter-spacing: 0.02em;
+}
+
+.reveal  {
+  color: #604848;
+}
+
+body {
+  background: radial-gradient(white 30%, #b3b3b3 100%) !important;
+}
+
+.reveal div.smaller, .reveal span.smaller {
+  font-size: 80%;
+}
+
+.pycolor {
+  color: #501644 !important;
+}
+
+.rcolor {
+  color: #ff7f2a !important;
+}
+
+#logo-first-page {
+  background: unset;
+  border: unset; 
+  box-shadow: unset; 
+  width: 6%;
+}
