@@ -1,0 +1,37 @@
+on:
+  push:
+    branches: master
+
+name: funcamp
+
+jobs:
+  build:
+    runs-on: macOS-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@master
+
+      - name: Install pandoc and pandoc citeproc
+        run: |
+          brew install pandoc
+          brew install pandoc-citeproc
+
+      - name: Cache bookdown results
+        uses: actions/cache@v1
+        with:
+          path: _bookdown_files
+          key: bookdown-${{ hashFiles('**/*Rmd') }}
+          restore-keys: bookdown-
+
+      - name: Install packages
+        run: |
+          R -e 'install.packages("revealjs")'
+
+      - name: Build deck
+        run: Rscript -e 'rmarkdown::render("index.Rmd", output_dir = "_out")'
+      
+      - name: Copy asset
+        run: cp spyrales_pres.css _out
