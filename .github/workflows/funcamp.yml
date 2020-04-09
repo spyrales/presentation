@@ -34,3 +34,25 @@ jobs:
         with:
           name: _out
           path: _out/
+
+  checkout-and-deploy:
+   runs-on: ubuntu-latest
+   needs: build
+   steps:
+     - name: Checkout
+       uses: actions/checkout@master
+       
+     - name: Download artifact
+       uses: actions/download-artifact@v1.0.0
+       with:
+         # Artifact name
+         name: _out # optional
+         # Destination path
+         path: _out # optional
+         
+     - name: Deploy to GitHub Pages
+       uses: Cecilapp/GitHub-Pages-deploy@master
+       env:
+          EMAIL: ${{ secrets.EMAIL }}               # must be a verified email
+          GH_TOKEN: ${{ secrets.GHPAT }} # https://github.com/settings/tokens
+          BUILD_DIR: _out/                     # "_site/" by default
