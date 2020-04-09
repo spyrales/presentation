@@ -1,5 +1,6 @@
 name: presentations
 output_dir: _site
+new_session: true
 navbar:
   title: "spyrales"
   left:
