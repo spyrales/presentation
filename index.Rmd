@@ -9,6 +9,7 @@ output:
     transition: zoom
     incremental: true
     css: spyrales_pres.css
+#knit: pagedown::chrome_print
 ---
 
 ## s[py]{.pycolor}[r]{.rcolor}ales -- les origines
