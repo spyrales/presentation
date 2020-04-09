@@ -15,17 +15,26 @@ jobs:
         uses: r-lib/actions/setup-pandoc@v1
         with:
           pandoc-version: '2.7.3' 
-
+ 
+      - name: Install Chrome (only on macOS)
+        if: runner.os == 'macOS'
+        run: |
+          brew update
+          brew cask install google-chrome
+ 
       - name: Setup R
         uses: r-lib/actions/setup-r@master
 
       - name: Install packages
-        run: install.packages("revealjs")
+        run: install.packages(c("revealjs", "pagedown"))
         shell: Rscript {0}
 
       - name: Build site
         run: rmarkdown::render_site(encoding = "UTF-8")
         shell: Rscript {0}
+        
+      - name: Build pdf
+        run: _build_pdf.R
       
       - uses: actions/upload-artifact@v1
         with:
