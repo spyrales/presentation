@@ -1,0 +1,51 @@
+---
+title: "Présentation de s[py]{.pycolor}[r]{.rcolor}ales à un webinaire (marché DAE) du 4 juin 2020"
+subtitle: "![](https://spyrales.netlify.app/images/favicon.png){#logo-first-page}"
+output: 
+  revealjs::revealjs_presentation:
+    center: true
+    theme: simple
+    transition: zoom
+    incremental: true
+    css: reveal-spyrales.css
+#knit: pagedown::chrome_print
+---
+  
+Ce document est un mémo pour partager les grandes lignes de s[py]{.pycolor}[r]{.rcolor}ales. Un replay sera proposé dans les prochains jours.
+
+## Introduction
+
+C'est une **belle occasion** de partager une démarche originale soutenue par le Secrétariat général des ministères économiques et financiers, la DINUM et la DITP.
+
+Je ne vous parlerai pas de technique, mais de capital humain qui est au coeur de la transformation du service public.
+
+Mais tout d'abord, je vais remonter un peu le temps, il y a 18 mois environ.
+
+
+## Constats
+
+- Le traitement des données nécessite des **compétences rares**, car cela croise plusieurs domaines, comme les mathématiques, l'informatique, les questions métiers, ce qui peut au final finir par **chercher le mouton à 5 pattes**
+- Bien entendu, tout le monde ne sera pas expert en IA, en machine learning, mais pour utiliser ces outils qui déboulent dans notre environnement professionnel, il est nécessaire de bien comprendre les données, leurs usages, mais aussi leurs limites. Il y a donc **différents paliers de connaissance** autour des données, des techniciens de la donnée, jusqu'aux équipes métiers impactées par la donnée.
+- Il existe de nombreux agents, des hommes et très souvent des femmes, qui aimeraient **monter à bord du train de la datascience**, car ils identifient l'évolution des métiers et le potentiel de ces métiers jugés émergents. On pourrait parler de **reconversion professionnelle** dans de nombreux cas.
+- MAIS les offres sont (trop ? ) nombreuses pour s'y retrouver. Le parcours de formation d'un ingénieur de la donnée peut devenir un **labyrinthe** dont un grand nombre de voies mèneraient à un **cul-de-sac**. Pour des agents qui souhaieraient se former, se reconvertir, il peut exister une inquiétude à se former par la mauvaise formation. Nous avons tous une expérience incertaine en formation.
+
+## Idées
+
+- Au cours de quelques années passées au ministère de l'écologie, ce besoin de formations et d'accompagnement aux métiers de la donnée a été détectée très tôt, et avec la **mobilisation de sachants internes** (en administration centrale et en déconcentré) un **parcours de formation à R** a été développé et il est fortement apprécié dans le **SSP** présenté juste avant.
+- Aux MEF, mêmes constats. Dans les premières actions autour des données :  **challenger le catalogue de formations** proposées autour du numérique et des données qui sont proposées par l'IGPDE, ce qui a permis d'ajuster l'offre pour 2020.
+- Une **journée de la donnée** fin nov 2019 qui a permis de mettre le projecteur sur les nombreuses initiatives et les attentes très fortes de culture commune, d'outils communs et de méthodes communes
+
+## Création de spyrales et les principaux résultats
+
+- Contexte de **crise sanitaire** avec des agents qui se retrouvent subitement dans une situation de non-travail : pas d'accès à distance, pas de PC pro, des exigences sécurité stricte interdisant les accès, etc.
+- **Moment privilégié pour développer ses connaissances, améliorer son employabilité**
+- Nombreux **événements** pour accompagner celles et ceux qui souhaitent se former au traitement des données, dans des langages comme R ou en python (donc sur des outils **opensource** dont les communautés d'utilisateurs ou de développeurs sont très dynamiques), dans des outils sur étagères (avec des éditeurs, comme Google)
+- Près d'une dizaine de **conférences** pour présenter des outils, des méthodes, des expériences, de tout niveau.
+- **Des accès inédits à des plateforme pour tester des outils (GCP et Onyxia), pour se former (datascientest) et être reconnu dans ses compétences (certification)** : on étudie actuellement la possibilité de proposer une certification dans différents segments de la datascience
+- **Plus de 250 agents aujourd'hui inscrits. Une enquête de satisfaction réalisée. Des attentes importantes et des agents mobilisés pour découvrir des outils, parfaire leur connaissance, partager leur expérience entre agents publics, à la fois experts ou débutants, car il y a beaucoup de pédagogie dans les échanges.** Tous les ministères sont présents : économie, écologie, justice, sociaux, culture, intérieur, armées... mais aussi d'opérateurs (cnes, cnrs, cerema) et enfin quelques agents en collectiivtés territoriales. Cette richesse des organisations permet aux agents d'avoir un éventeil des possibilités.
+
+## Déplacement de la maîtrise des connaissances
+
+- La formation dans l'administration : c'est une demande par voie hiérarchique, acceptée ou non en fonction de critères, comme l'activité, l'adéquation de la formation aux missions ou encore le budget.
+- MAIS se former c'est aussi **investir sur l'avenir**, développer des compétences à mobiliser plus tard, pour un autre poste, se reconvertir parfois... Spyrales : c'est en quelque sorte donner aux agents la **maîtrise de leurs compétences**, et donc de leur parcours professionnel, une **encapacitation**.
+- Pour terminer, avec spyrales, un **nouveau management des parcours professionnels** doit déplacer le centre de gravité de la formation vers les agents. C'est un nouvel équilibre à trouver entre les compétences individuelles et les compétences de groupe. C'était l'idée du **compte personnel de formation** qui aujourd'hui pourrait mieux être utilisé par les agents publics.
