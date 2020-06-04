@@ -4,7 +4,7 @@
   font-family: 'Roboto', sans-serif !important;
 }
 
-.reveal h1.title, .reveal h2 {
+.reveal h1.title, .reveal h1.subtitle, .reveal h2 {
   text-transform: lowercase;
   color: #786060;
   letter-spacing: 0.02em;
