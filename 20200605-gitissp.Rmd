@@ -36,7 +36,7 @@ output:
   * [onyxia](https://spyrales.sspcloud.fr/) par l'Insee : plateforme de datascience, orchestration et déploiement de contenu
   * Google Cloud Platform : présentations des outils IA et ML avec des crédits gratuits
 
-- rendre ludique : [la]{.pycolor} [piscine]{.rcolor}
+- rendre ludique et présenter des cas concrets : [la]{.pycolor} [piscine]{.rcolor}
 
 - événements : près d'une [dizaine]{.pycolor} de [conférences]{.rcolor}\
     [outils, méthodes, retours d'expérience]{.smaller}
