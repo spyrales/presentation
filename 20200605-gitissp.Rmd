@@ -34,7 +34,7 @@ output:
 - des offres de partenaires soutenant s[py]{.pycolor}[r]{.rcolor}ales
   * [datascientest](https://datascientest.com/) : MOOC gratuits pour les membres, formations certifiantes
   * [onyxia](https://spyrales.sspcloud.fr/) par l'Insee : plateforme de datascience, orchestration et déploiement de contenu
-  * Google Cloud Platform : formation et crédits gratuits
+  * Google Cloud Platform : présentations des outils IA et ML avec des crédits gratuits
 
 - rendre ludique : [la]{.pycolor} [piscine]{.rcolor}
 
