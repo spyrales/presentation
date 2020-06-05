@@ -1,0 +1,79 @@
+---
+title: |
+  s[py]{.pycolor}[r]{.rcolor}ales
+subtitle: |
+  ![](https://spyrales.netlify.com/images/favicon.png){#logo-first-page}\
+  [guider les agents vers les\
+  ressources pédagogiques et en\
+  faciliter l'orchestration]{.smaller}
+output: 
+  revealjs::revealjs_presentation:
+    center: true
+    theme: simple
+    transition: zoom
+    incremental: true
+    css: reveal-spyrales.css
+#knit: pagedown::chrome_print
+---
+
+## s[py]{.pycolor}[r]{.rcolor}ales -- les origines
+
+- suite au confinement, de nombreux retours d'agents publics souhaitant se former à [R]{.rcolor} ou [python]{.pycolor}\
+    [ex : 25 agents du SSM Justice se sont signalés dès le 17 mars]{.smaller}
+
+- comment soutenir un grand nombre d'agents souhaitant s'auto-former ?
+  * [s]{.pycolor}'[entraider]{.rcolor} : communauté [Tchap](https://www.tchap.gouv.fr)\
+    [plus de 250 agents (Etat, opérateurs, collectivités locales)\
+    des formateurs, des agents souhaitant se former]{.smaller}
+  * [orienter]{.pycolor}, [partager]{.rcolor} : un site web [spyrales.netlify.app](https://spyrales.netlify.app)
+
+- initiative soutenue par le SG des MEF, la DINUM et la DITP
+
+## \ {data-background-image="https://spyrales.netlify.app/images/logo.png" data-background-size="100%" data-background-position="50% 0"}
+
+- des offres de partenaires soutenant s[py]{.pycolor}[r]{.rcolor}ales
+  * [datascientest](https://datascientest.com/) : MOOC gratuits pour les membres, formations certifiantes
+  * [onyxia](https://spyrales.sspcloud.fr/) par l'Insee : plateforme de datascience, orchestration et déploiement de contenu
+  * Google Cloud Platform : présentations des outils IA et ML avec des crédits gratuits
+
+- rendre ludique et présenter des cas concrets : [la]{.pycolor} [piscine]{.rcolor}
+
+- événements : près d'une [dizaine]{.pycolor} de [conférences]{.rcolor}\
+    [outils, méthodes, retours d'expérience]{.smaller}
+
+## s[py]{.pycolor}[r]{.rcolor}ales : la suite
+
+- enquête de satisfaction ([résultats](https://rpubs.com/strainel/spyrales-survey-202005))
+
+- poursuivre la [curation]{.pycolor} de [formations]{.rcolor}\
+    [_consolider des parcours de formation_\
+    et la mise à disposition d'environnements d'auto-formation\
+    _lever les barrières liées à l'installation des outils_]{.smaller}
+
+- poursuivre les [web]{.pycolor}[inaires]{.rcolor}\
+    [_intérêt marqué pour le cloud_]{.smaller}
+
+- forte demande d'un [séminaire]{.pycolor} [en présentiel]{.rcolor}\
+    [_en lien avec la journée données à Bercy_]{.smaller}
+
+## enseignements
+
+- forte volonté de nombreux agents d'acquérir une culture de traitement de la donnée avec des outils et méthodes modernes : 
+  * langages open source ([python]{.pycolor} et [R]{.rcolor})
+  * [machine learning]{.pycolor} et [IA]{.rcolor}
+  * [utilisation des [technologies]{.pycolor} [cloud]{.rcolor}]{.smaller}
+  * [utilisation des [pratiques et outils]{.pycolor} [DevOps]{.rcolor}\
+      _git, intégration continue, docker..._]{.smaller}
+
+## enseignements (suite)
+  
+- [lever]{.pycolor} [les barrières]{.rcolor} par la mise à disposition un environnement d'auto-formation adapté\
+    [_former les formateurs ?_]{.smaller}
+
+- intérêt pour les [formations]{.pycolor} [certifiantes]{.rcolor}\
+    [reconnaissance des compétences\
+    _mobiliser le CPF ?_]{.smaller}
+
+- inspiration dans [l'échange]{.pycolor} [entre pairs]{.rcolor}\
+    [_devenir un mouton à 5 pattes est impossible_\
+    webinaires avec possibilité de replay]{.smaller}
